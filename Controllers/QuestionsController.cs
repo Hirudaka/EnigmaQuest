@@ -36,6 +36,13 @@ namespace EnigmaQuest.Controllers
                           Problem("Entity set 'ApplicationDbContext.Question'  is null.");
         }
 
+        // POST: Questions/ShowSearchResults
+        public string ShowSearchResults(String SearchPhrase)
+        {
+            return "you entered "+SearchPhrase ;
+        }
+
+
 
         // GET: Questions/Details/5
         public async Task<IActionResult> Details(int? id)
