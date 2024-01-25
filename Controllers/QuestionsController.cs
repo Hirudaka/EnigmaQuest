@@ -27,6 +27,16 @@ namespace EnigmaQuest.Controllers
                           Problem("Entity set 'ApplicationDbContext.Question'  is null.");
         }
 
+        // GET: Questions/ShowSearchForm
+        public async Task<IActionResult> ShowSearchForm()
+        {
+            //return View("");
+            return _context.Question != null ?
+                          View() :
+                          Problem("Entity set 'ApplicationDbContext.Question'  is null.");
+        }
+
+
         // GET: Questions/Details/5
         public async Task<IActionResult> Details(int? id)
         {
