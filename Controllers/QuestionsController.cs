@@ -37,9 +37,9 @@ namespace EnigmaQuest.Controllers
         }
 
         // POST: Questions/ShowSearchResults
-        public string ShowSearchResults(String SearchPhrase)
+        public async Task<IActionResult> ShowSearchResults(String SearchPhrase)
         {
-            return "you entered "+SearchPhrase ;
+            return View("Index", await _context.Question.Where(j=>j.GKQuestion.Contains(SearchPhrase)).ToListAsync());
         }
 
 
