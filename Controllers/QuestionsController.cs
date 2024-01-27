@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using EnigmaQuest.Data;
 using EnigmaQuest.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EnigmaQuest.Controllers
 {
@@ -62,6 +63,7 @@ namespace EnigmaQuest.Controllers
             return View(question);
         }
 
+        [Authorize]
         // GET: Questions/Create
         public IActionResult Create()
         {
@@ -71,6 +73,8 @@ namespace EnigmaQuest.Controllers
         // POST: Questions/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,GKQuestion,GKAnswer")] Question question)
@@ -85,6 +89,7 @@ namespace EnigmaQuest.Controllers
         }
 
         // GET: Questions/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Question == null)
@@ -103,6 +108,8 @@ namespace EnigmaQuest.Controllers
         // POST: Questions/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,GKQuestion,GKAnswer")] Question question)
@@ -136,6 +143,7 @@ namespace EnigmaQuest.Controllers
         }
 
         // GET: Questions/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Question == null)
@@ -156,6 +164,7 @@ namespace EnigmaQuest.Controllers
         // POST: Questions/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Question == null)
