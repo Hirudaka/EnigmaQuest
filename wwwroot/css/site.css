@@ -1,19 +1,67 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
-  background-color:#eee;
+    margin-bottom: 60px;
+    background-color: #eee;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top:40px;
+    color: forestgreen;
+    text-align-last:center;
+}
+
+p {
+    margin-bottom: 40px;
+    color: green;
+}
+
+a {
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+a:hover {
+    color: seagreen;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: black;
+    color: lightseagreen;
+}
+
+tr:hover {
+    background-color: mediumseagreen;
+}
+
+.table-actions a {
+    margin-right: 10px;
 }
