@@ -34,11 +34,11 @@ p {
 
 a {
     text-decoration: none;
-    color: lightseagreen;
+    color: black;
 }
 
 a:hover {
-    color: seagreen;
+    color: darkslategray;
 }
 
 table {
@@ -52,7 +52,9 @@ th, td {
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
-
+td{
+    
+}
 th {
     background-color: black;
     color: lightseagreen;
@@ -63,5 +65,6 @@ tr:hover {
 }
 
 .table-actions a {
+    text-emphasis-color: aqua;
     margin-right: 10px;
 }
