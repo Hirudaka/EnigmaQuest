@@ -12,6 +12,7 @@
 <table class="table">
     <thead>
         <tr>
+            <!-- this contains headers for the table --> 
             <th>Questions</th>
             
             <th>Actions</th>
@@ -20,6 +21,7 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <!-- this contains the table details --> 
             <td>
                 @Html.DisplayFor(modelItem => item.GKQuestion)
             </td>

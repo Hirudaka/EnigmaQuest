@@ -9,6 +9,8 @@ using EnigmaQuest.Data;
 using EnigmaQuest.Models;
 using Microsoft.AspNetCore.Authorization;
 
+//controllers according to the 'question' models
+
 namespace EnigmaQuest.Controllers
 {
     public class QuestionsController : Controller
