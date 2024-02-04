@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
-
+//table definitions
 namespace EnigmaQuest.Data.Migrations
 {
     public partial class initalsetup : Migration
