@@ -15,10 +15,14 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-color: #eee;
+    background-color: #E2FFE2;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+header {
+    background-color: #75DDDD;
 }
 
 h1 {
