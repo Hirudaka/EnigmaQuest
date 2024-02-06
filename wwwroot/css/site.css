@@ -4,7 +4,7 @@ html {
 
 @media (min-width: 768px) {
     html {
-        font-size: 16px;
+        font-size: 19px;
     }
 }
 
@@ -26,9 +26,10 @@ header {
 }
 
 h1 {
-    margin-top:40px;
+    margin-top: 40px;
     color: forestgreen;
-    text-align-last:center;
+    text-align-last: center;
+    font-size: 57px;
 }
 
 p {
@@ -72,3 +73,5 @@ tr:hover {
     text-emphasis-color: aqua;
     margin-right: 10px;
 }
+
+
