@@ -21,12 +21,12 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <!-- this contains the table details --> 
+            <!-- this contains the table columns --> 
             <td>
                 @Html.DisplayFor(modelItem => item.GKQuestion)
             </td>
            
-            <td>
+            <td> 
                 <a asp-action="Details" asp-route-id="@item.Id">Answer</a> |
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> | 
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>

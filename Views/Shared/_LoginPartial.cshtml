@@ -2,6 +2,7 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
+    <!-- accounts page --> 
 <ul class="navbar-nav">
 @if (SignInManager.IsSignedIn(User))
 {
@@ -16,6 +17,7 @@
 }
 else
 {
+    <!-- register & login button --> 
     <li class="nav-item">
         <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
     </li>
