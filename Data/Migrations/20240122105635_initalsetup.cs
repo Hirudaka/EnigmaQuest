@@ -2,6 +2,7 @@
 
 #nullable disable
 //table definitions
+//written by a code generation using the terminal
 namespace EnigmaQuest.Data.Migrations
 {
     public partial class initalsetup : Migration
