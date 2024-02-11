@@ -1,4 +1,5 @@
 ﻿@model EnigmaQuest.Models.Question
+<!-- this contaons the paragraphs details for the page --> 
 
 @{
     ViewData["Title"] = "Create";
@@ -12,20 +13,24 @@
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
             <div class="form-group">
                 <label asp-for="GKQuestion" class="control-label"></label>
                 <input asp-for="GKQuestion" class="form-control" />
                 <span asp-validation-for="GKQuestion" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="GKAnswer" class="control-label"></label>
                 <input asp-for="GKAnswer" class="form-control" />
                 <span asp-validation-for="GKAnswer" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
+
     </div>
 </div>
 
