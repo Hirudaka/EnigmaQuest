@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using EnigmaQuest.Models;
-using EnigmaQuest.Models;
 
 namespace EnigmaQuest.Data
 {
