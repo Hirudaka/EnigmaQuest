@@ -6,6 +6,7 @@
       "applicationUrl": "http://localhost:15555",
       "sslPort": 44322
     }
+    
   },
   "profiles": {
     "EnigmaQuest": {
