@@ -9,6 +9,7 @@ using System;
 
 namespace EnigmaQuest.Data.Migrations
 {
+
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("00000000000000_CreateIdentitySchema")]
     partial class CreateIdentitySchema
