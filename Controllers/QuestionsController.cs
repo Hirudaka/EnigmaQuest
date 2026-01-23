@@ -10,7 +10,7 @@ using EnigmaQuest.Models;
 using Microsoft.AspNetCore.Authorization;
 
 //controllers according to the 'question' models
-//written by a code generation using the terminal
+//written by a code generation using the terminal added
 
 namespace EnigmaQuest.Controllers
 {
