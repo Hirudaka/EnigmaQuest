@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 
+
 namespace EnigmaQuest.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
