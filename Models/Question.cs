@@ -1,4 +1,5 @@
 ﻿namespace EnigmaQuest.Models
+ 
 {
     public class Question
     {
