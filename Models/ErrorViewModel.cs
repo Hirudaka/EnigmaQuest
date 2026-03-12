@@ -1,5 +1,4 @@
 namespace EnigmaQuest.Models
-
 {
     public class ErrorViewModel
     {
