@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Authorization;
 // controllers according to the 'question' models
 // written by a code generation using the terminal added
 
+
 namespace EnigmaQuest.Controllers
 {
     public class QuestionsController : Controller
