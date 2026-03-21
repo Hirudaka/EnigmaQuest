@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
+
 namespace EnigmaQuest.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
