@@ -1,6 +1,7 @@
 ﻿using EnigmaQuest.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+
 // already written the controllers for the pre- made web pages
 //home ,  index, and privacy page 
 namespace EnigmaQuest.Controllers
