@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using EnigmaQuest.Models;
 
+
 namespace EnigmaQuest.Data
 {
     public class ApplicationDbContext : IdentityDbContext
